@@ -5,7 +5,7 @@
 
 namespace mm {
 
-int sum(const std::vector<int> integers);
+int sum(const std::vector<int> &integers);
 
 }  // namespace mm
 
