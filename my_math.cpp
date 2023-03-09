@@ -3,8 +3,8 @@
 namespace mm {
 
 int sum(const std::vector<int> &integers) {
-  auto sum = 0;
-  for (auto i : integers)
+  int sum = 0;
+  for (int i : integers)
     sum += i;
   return sum;
 }

@@ -14,7 +14,6 @@ target_link_libraries(sum_int_test PRIVATE my_math)
 if (BUILD_TESTING)
   add_test(
     NAME sum_int_test
-    COMMAND $<TARGET_FILE:sum_int_test>
-    WORKING_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}"
+    COMMAND sum_int_test
   )
 endif()
